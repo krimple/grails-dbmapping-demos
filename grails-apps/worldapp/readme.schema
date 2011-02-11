@@ -1,0 +1,11 @@
+I used the following schema to do my testing:
+
+The pgFoundry world database
+
+http://pgfoundry.org/frs/?group_id=1000150&release_id=366
+
+
+My configuration details are in the DataSource.groovy file, but I use:
+  username: postgres
+  password: postgres
+  database: world
