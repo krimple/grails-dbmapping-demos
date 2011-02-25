@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.chariot.grailsdemo.world">
+	<class name="Country">	
+	   <id name="id" column="code" type='java.lang.String'>
+	   	<generator class="assigned"/>
+	   </id>
+  	   <property name="name" column="name" type="java.lang.String"/>
+	   <property name="continent" column='continent' type='java.lang.String'/>
+       <property name='region' column='region' type='java.lang.String'/>
+	   <property name='surfacearea' column='surfacearea' type='java.lang.String'/>
+	</class>
+</hibernate-mapping>
